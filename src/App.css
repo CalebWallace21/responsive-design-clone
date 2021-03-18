@@ -1,0 +1,123 @@
+
+.App {
+  height: 100vh;
+  width: 100vw;  
+  display: flex;  
+  
+  
+}
+.header-title-large {
+  position: fixed;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center; 
+  top: 0px; 
+  width: 100%;
+  height: 15%;
+  font-weight: bold;  
+  font-size: 24px;
+}
+.header-title-small {
+  position: fixed;
+  display: flex;  
+  flex-direction: row;
+  justify-content: center; 
+  top: 0px; 
+  width: 100%;
+  height: 15%;
+  font-weight: bold;  
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.site-title{
+  width: 33%;
+  text-align: right;
+  margin-top: 1%;
+}
+.site-title-small{
+  width: 33%;
+  text-align: left;
+  margin-top: 2%;
+}
+.menu-button{ 
+  margin-left: 35%;
+  margin-top: 1%;  
+}
+.nav-items{
+  width: 67%;
+  text-align: center;
+  margin-top: 1%;
+  word-spacing: 25px;
+}
+.main-body {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg');
+  background-position: center;  
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;  
+  text-align: center;
+}
+.body-container{
+  margin-top: 15%;  
+}
+.body-title {
+  font-size: 128px;
+}
+.body-item{
+  font-size: 32px;
+  color: black;
+  word-wrap:normal;
+}
+.body-button{
+  text-align: center;
+  background-color: #64a19d;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  margin-top: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: transparent;
+}
+@media(min-width:993px){
+  .header-title-small{
+    display: none;
+  }
+}
+@media (max-width: 992px){
+.header-title-small{
+background-color: white;
+height: 8%;
+}
+.header-title-large{
+  display: none;
+}
+.body-title {
+ font-size: 100px;
+}
+.body-item{
+  font-size: 24px
+}
+}
+@media (max-width: 768px){
+  .header-title-small{
+    background-color: white;
+    height: 8%;
+    }
+    .header-title-large{
+      display: none;
+    }
+  .main-body{
+    display: flex;
+    justify-content: center;  
+    text-align: center;
+  }
+  .body-title {
+   font-size: 72px;
+  }
+  .body-item{
+    font-size: 18px
+  }
+  }
